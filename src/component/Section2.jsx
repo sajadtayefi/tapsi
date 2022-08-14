@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Items from "../constant/Items";
-import Icons from "./Icons";
+import Icons from "./event/Icons";
 export default function Section2() {
   const [state, setState] = useState(Items);
   const showhandler = (newtitle) => {

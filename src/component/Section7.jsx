@@ -1,7 +1,7 @@
 import blog1 from "../Assetes/picture/blog2-scaled.jpg";
 import blog2 from "../Assetes/picture/A68CB9F1-AA36-4B75-99B7-DE475A5FFBDF.jpg";
 import blog3 from "../Assetes/picture/etehadie-no-logo-scaled.jpg";
-import Card from "./Card";
+import Card from "./event/Card";
 
 export default function Section7() {
   return (
