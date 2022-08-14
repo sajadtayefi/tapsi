@@ -1,4 +1,4 @@
-import Citys from "./Citys";
+import Citys from "../constant/Citys";
 export default function Section8() {
   return (
     <div className=" bg-sliver pb-10 bg-iran bg-no-repeat bg-left-top flex flex-col items-start justify-start">

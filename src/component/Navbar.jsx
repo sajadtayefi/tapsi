@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <div className=" bg-white w-full sticky top-0 z-10   text-sm ">
+    <div className=" bg-white w-full fixed top-0 z-10   text-sm ">
       <ul className=" flex flex-row h-16  justify-end items-center mx-56 ">
         <li className="mx-4 ml-auto font-semibold text-2xl ">تپســی</li>
         <li className="mx-4">پشتیبانی</li>
