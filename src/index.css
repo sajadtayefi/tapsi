@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
 @font-face {
     font-family: "iranyekan";
     src: url("../src/Assetes/Font/Qs_Iranyekan.ttf");
