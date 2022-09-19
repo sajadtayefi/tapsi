@@ -1,4 +1,3 @@
-import { useState } from "react";
 import MouseHover from "../component/MouseHover";
 
 export default function Section5() {
@@ -10,7 +9,7 @@ export default function Section5() {
           ptag={`سهولت استفاده از اپلیکیشن با پیشنهاد مبدا و مقصد سفر، مقاصد منتخب
         و پیشنهادهای ویژه شما`}
           classN={
-            "flex flex-col  w-full py-10 lg:p-3   lg:w-1/4  h-12 justify-center text-center items-center  lg:border-r-2"
+            "flex flex-col  w-full py-16 lg:p-3   lg:w-1/4  h-12 justify-center text-center items-center  lg:border-r-2"
           }
         />
         <MouseHover
@@ -18,21 +17,21 @@ export default function Section5() {
           ptag={` امکان استفاده کاربران نابینا و ناشنوا از اپلیکیشن تپسی و عدم کسر
      کمیسیون از سفر مسافران ویلچردار`}
           classN={
-            " flex flex-col  w-full  py-10 lg:p-3   lg:w-1/4  h-12 justify-center text-center items-center  lg:border-r-2"
+            " flex flex-col  w-full  py-16 lg:p-3   lg:w-1/4  h-12 justify-center text-center items-center  lg:border-r-2"
           }
         />
         <MouseHover
           span={"درخواست تلفنی"}
           ptag={` امکان درخواست خودرو بدون نیاز به اینترنت و اپلیکیشن، از طریق تماس با شماره ۱۶۳۰`}
           classN={
-            " flex flex-col  w-full  py-10 lg:p-3  lg:w-1/4  h-12 justify-center text-center items-center  lg:border-r-2"
+            " flex flex-col  w-full  py-16 lg:p-3  lg:w-1/4  h-12 justify-center text-center items-center  lg:border-r-2"
           }
         />
         <MouseHover
           span={"بسته امنیت سفر"}
           ptag={` امکانات ویژه امنیت سفر، شامل اشتراک سفر و پشتیبانی ۲۴ ساعته تیم متخصصین امنیت تپسی`}
           classN={
-            " flex flex-col  w-full py-10 lg:p-3  lg:w-1/4  h-12 justify-center text-center items-center  "
+            " flex flex-col  w-full py-16 lg:p-3  lg:w-1/4  h-12 justify-center text-center items-center  "
           }
         />
       </div>

@@ -3,7 +3,7 @@ import driver from "../Assetes/picture/driver.webp";
 export default function Section6() {
   return (
     <div className="flex flex-col lg:flex-row-reverse justify-around mx-auto items-center lg:items-start text-right lg:mb-28   px-36 py-20 ">
-      <img className="rounded-xl w-5/12 m-5" src={driver} alt="driver" />
+      <img className="rounded-xl max-w-xs md:max-w-2xl  lg:w-5/12  m-5" src={driver} alt="driver" />
 
       <div className="">
         <h2 className="text-3xl font-semibold mb-10 ">

@@ -41,20 +41,20 @@ export default function Section9() {
           </div>
         </div>
         <ul className=" justify-self-end  flex flex-row justify-start  items-start h-full">
-          <li className=" w-32">
+          <li className=" w-1/3 m-1">
             <Logo
               image={etehadiye}
               alt={etehadiye}
             />
           </li>
-          <li className="w-32">
+          <li className=" w-1/3 m-1">
             <Logo
               image={logo1}
               alt={logo1}
             />
 
           </li>
-          <li className="w-32">
+          <li className=" w-1/3 m-1">
             <Logo
               image={logo}
               alt={logo}

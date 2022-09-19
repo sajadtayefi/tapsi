@@ -5,8 +5,8 @@ import Card from "../component/Card";
 
 export default function Section7() {
   return (
-    <div className=" flex flex-col  justify-center items-star  m-2   xl:mb-20 mb-24 ">     
-      <h1 className=" px-20 2xl:px-40 text-3xl font-semibold">تازه‌ترین‌های وبلاگ تپسی</h1>
+    <div className=" flex flex-col  justify-center items-star  m-2   xl:mb-20 mb-24 ">
+      <h1 className=" px-20 2xl:px-40 text-3xl font-semibold">  </h1>
       <div className=" flex flex-col lg:flex-row-reverse justify-center items-center w-full p-10">
         <Card
           img={blog1}

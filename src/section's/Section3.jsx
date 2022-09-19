@@ -3,8 +3,8 @@ import { IoIosArrowBack } from "react-icons/io";
 
 export default function Section3() {
   return (
-    <div className="flex flex-col-reverse  lg:flex-row md:p-28 justify-around w-full items-center   lg:items-start">
-      <div className=" w-full  flex flex-col text-right items-start justify-start m-5 px-20 md:p-0">
+    <div className="flex flex-col-reverse  lg:flex-row md:p-28 justify-around w-full items-center mt-10   lg:items-start">
+      <div className=" w-full  flex flex-col text-right items-center lg:items-start justify-start m-5 px-20 md:p-0">
         <h3 className=" text-xl md:text-4xl mb-5 font-semibold">
           خدمات تپسی ویژه کسب‌وکارها
         </h3>
@@ -18,7 +18,7 @@ export default function Section3() {
         </p>
         <a
           className=" my-5 text-primary font-medium flex flex-row-reverse justify-center items-center"
-          href="#"
+          href="##"
         >
           <span> اطلاعات بیشتر سرویس سازمانی</span>
           <IoIosArrowBack size={17} />
