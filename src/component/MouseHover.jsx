@@ -15,7 +15,7 @@ function MouseHover({span ,ptag,classN}) {
       className={classN}
     >
       <span> {span}</span>
-      {hover ? <p className=" font-normal mt-4 text-sm">{ptag}</p> : null}
+      {hover ? <p className=" font-medium mt-4 text-base">{ptag}</p> : null}
     </div>
   );
 }

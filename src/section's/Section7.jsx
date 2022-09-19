@@ -5,9 +5,9 @@ import Card from "../component/Card";
 
 export default function Section7() {
   return (
-    <div className=" flex flex-col  justify-center items-star h-3/4  ">     
-      <h1 className=" px-48 text-3xl font-semibold">تازه‌ترین‌های وبلاگ تپسی</h1>
-      <div className=" flex flex-row-reverse justify-center items-center w-full p-10">
+    <div className=" flex flex-col  justify-center items-star  m-2   xl:mb-20 mb-24 ">     
+      <h1 className=" px-20 2xl:px-40 text-3xl font-semibold">تازه‌ترین‌های وبلاگ تپسی</h1>
+      <div className=" flex flex-col lg:flex-row-reverse justify-center items-center w-full p-10">
         <Card
           img={blog1}
           h2={"برای دریافت دز سوم واکسن، با تخفیف به مراکز واکسیناسیون بروید!"}

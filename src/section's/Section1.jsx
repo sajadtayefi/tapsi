@@ -11,32 +11,32 @@ export default function Section1() {
         <h2 className=" m-2 md:text-4xl text-2xl font-semibold">تپسی</h2>
         <h3 className=" md:my-6 md:mx-2 mb-5  md:text-2xl text-base"> اپلیکیشن درخواست خودرو و پیک</h3>
         <div className="flex  md:flex-row-reverse  flex-col">
-         <Button
-         classbtn={"flex flex-row-reverse space-x-2 h-14 justify-center items-center m-2  w-56 border-2 bg-white rounded-xl"}
-         classSpn="text-sm text-black"
-         span="وب اپلیکیشن مسافران"
-         icon={<IoLogoPwa color="black" size={26} />}
-         /> 
-        <Button
-        classbtn={"flex flex-row-reverse space-x-2 h-14 justify-center items-center m-2  w-56 border-2 bg-white rounded-xl"}
-        classSpn={"text-sm text-black"}
-        span={"دانلود اپلیکیشن مسافران"}
-        icon={<AiOutlineArrowDown color="black" size={26}/>}
-        />
+          <Button
+            classbtn={"flex flex-row-reverse space-x-2 h-14 justify-center items-center m-2  w-56 border-2 bg-white rounded-xl"}
+            classSpn="text-sm text-black"
+            span="وب اپلیکیشن مسافران"
+            icon={<IoLogoPwa color="black" size={26} />}
+          />
+          <Button
+            classbtn={"flex flex-row-reverse space-x-2 h-14 justify-center items-center m-2  w-56 border-2 bg-white rounded-xl"}
+            classSpn={"text-sm text-black"}
+            span={"دانلود اپلیکیشن مسافران"}
+            icon={<AiOutlineArrowDown color="black" size={26} />}
+          />
         </div>
         <div className="flex md:flex-row-reverse flex-col">
-         <Button 
-         classbtn={"flex flex-row-reverse space-x-2 h-14 justify-end items-center m-2  w-56 border-2 rounded-xl"}
-         classSpn={"text-sm  "}
-         span={"ثبت نام راننده"}
-         icon={<AiOutlineCar className=" w-16"  size={26} />}
-         />
-         <Button
-          classbtn={"flex flex-row-reverse space-x-2 h-14 justify-center items-center m-2  w-56 border-2  rounded-xl"}
-          classSpn="text-sm  "
-          span={"دانلود اپلیکیشن رانندگان"}
-          icon={<AiOutlineArrowDown size={26} />}
-         />
+          <Button
+            classbtn={"flex flex-row-reverse space-x-2 h-14 justify-end items-center m-2  w-56 border-2 rounded-xl"}
+            classSpn={"text-sm  "}
+            span={"ثبت نام راننده"}
+            icon={<AiOutlineCar className=" w-16" size={26} />}
+          />
+          <Button
+            classbtn={"flex flex-row-reverse space-x-2 h-14 justify-center items-center m-2  w-56 border-2  rounded-xl"}
+            classSpn="text-sm  "
+            span={"دانلود اپلیکیشن رانندگان"}
+            icon={<AiOutlineArrowDown size={26} />}
+          />
         </div>
       </div>
       <img

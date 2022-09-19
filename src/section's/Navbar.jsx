@@ -8,7 +8,7 @@ export default function Navbar() {
   };
 
   return (
-    <div >
+    <div>
       <div className=" bg-white w-full fixed top-0 z-10 shadow-md  text-sm hidden md:inline-block ">
         <ul className=" flex flex-row h-16  justify-end items-center px-4 xl:px-36 ">
           <li className="px-4  w-40 ml-auto font-semibold text-2xl   ">
@@ -48,16 +48,13 @@ export default function Navbar() {
               )}
             </button>
           </div>
-          <div className="flex flex-col-reverse origin-top">
+          {/* sidebar  */}
+          <div className={`${!show && "hidden"} "delay-1000 transition-all ease-in-out p-4  flex flex-col-reverse origin-bottom `}>
             {NavbarItem.map((nav, index) => {
               return (
                 <>
-                  <li className="p-4 " key={index}>
-                    <h2
-                      className={`${
-                        !show && "hidden"
-                      }  duration-1000 origin-top `}
-                    >
+                  <li className="p-2 px-4" key={index}>
+                    <h2  >
                       {nav.item}
                     </h2>
                   </li>
@@ -74,16 +71,4 @@ export default function Navbar() {
   );
 }
 
-{
-  /* <li className="px-4  w-40 ml-auto font-semibold text-2xl   ">تپســی</li>
-<li className="px-4 ">پشتیبانی</li>
-<li className="px-4 ">معرفی راننده</li>
-<li className="px-4 ">خدمات کسب و کارها</li>
-<li className="px-4 ">فرصت های شغلی</li>
-<li className="px-4 ">وبلاگ</li>
-<li className="mx-4">
-  <button className="hidden lg:flex justify-center items-center font-normal text-white h-11 rounded-lg w-40 bg-primary">
-    دانلود تپسی
-  </button>
-</li> */
-}
+

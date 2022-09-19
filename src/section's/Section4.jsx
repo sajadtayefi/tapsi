@@ -1,8 +1,8 @@
 import macbook from "../Assetes/picture/macbook.webp";
 export default function Section4() {
   return (
-    <div className="flex flex-row-reverse p-28 pb-36 justify-around w-full   items-start">
-      <div className=" flex flex-col min-w-max justify-start items-start ">
+    <div className="flex flex-col-reverse items-center lg:flex-row-reverse px-28 pb-36 justify-around w-full   lg:items-start">
+      <div className=" flex flex-col  justify-start items-start   ">
         <h2 className=" mb-10 text-3xl font-semibold">خرید کد اعتبار تپسی</h2>
         <p className="text-lg  ">
           کاربران، کسب‌وکارها و سازمان‌ها می‌توانند به تعداد و مبلغ مورد نظرشان،
@@ -21,7 +21,7 @@ export default function Section4() {
           خرید کد اعتبار و تخفیف
         </button>
       </div>
-      <img className="max-w-2xl" src={macbook} alt="" />
+      <img className="max-w-xs  xl:p-0 md:p-20 pb-10 xl:max-w-2xl 2xl:max-w-3xl  lg:max-w-lg md:max-w-md " src={macbook} alt="" />
     </div>
   );
 }

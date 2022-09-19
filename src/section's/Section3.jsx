@@ -3,8 +3,8 @@ import { IoIosArrowBack } from "react-icons/io";
 
 export default function Section3() {
   return (
-    <div className="flex flex-col-reverse md:flex-row md:p-28 justify-around w-full   items-start">
-      <div className=" w-full  flex flex-col text-right items-start justify-start m-5">
+    <div className="flex flex-col-reverse  lg:flex-row md:p-28 justify-around w-full items-center   lg:items-start">
+      <div className=" w-full  flex flex-col text-right items-start justify-start m-5 px-20 md:p-0">
         <h3 className=" text-xl md:text-4xl mb-5 font-semibold">
           خدمات تپسی ویژه کسب‌وکارها
         </h3>
@@ -15,7 +15,7 @@ export default function Section3() {
           استفاده از آن<br />
           می‌توانید ماموریت های درون‌شهری و ارسال کالاهای خود را به سادگی مدیریت
           کنید.
-          </p>
+        </p>
         <a
           className=" my-5 text-primary font-medium flex flex-row-reverse justify-center items-center"
           href="#"
@@ -27,7 +27,7 @@ export default function Section3() {
           ورود و ثبت نام پنل سازمانی
         </button>
       </div>
-      <img className=" p-20 pb-10 md:max-w-2xl " src={picture} alt="mac" />
+      <img className=" max-w-xs  xl:p-0 md:p-20 pb-10 xl:max-w-2xl 2xl:max-w-3xl  lg:max-w-lg md:max-w-md " src={picture} alt="mac" />
     </div>
   );
 }

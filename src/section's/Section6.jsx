@@ -2,8 +2,8 @@ import driver from "../Assetes/picture/driver.webp";
 
 export default function Section6() {
   return (
-    <div className="flex flex-row-reverse justify-around mx-auto items-start text-right  px-36 py-20 ">
-      <img className="rounded-xl w-5/12" src={driver} alt="driver" />
+    <div className="flex flex-col lg:flex-row-reverse justify-around mx-auto items-center lg:items-start text-right lg:mb-28   px-36 py-20 ">
+      <img className="rounded-xl w-5/12 m-5" src={driver} alt="driver" />
 
       <div className="">
         <h2 className="text-3xl font-semibold mb-10 ">
@@ -49,8 +49,10 @@ export default function Section6() {
             اقساطی و ...
           </li>
         </ul>
-        <button className=" w-48 h-14 rounded-xl ml-5 text-white text-sm  bg-blue">ثبت نام راننده تاکسی آنلاین</button>
-        <button className=" w-48 h-14 rounded-xl ml-5 text-white text-sm  bg-blue">دانلود برنامه تپسی راننده</button>
+        <div className="flex lg:flex-row lg:justify-start lg:items-start  flex-col justify-center items-center "> 
+          <button className=" w-48 h-14 rounded-xl ml-5 text-white text-sm m-2 lg:m-1  bg-blue">ثبت نام راننده تاکسی آنلاین</button>
+          <button className=" w-48 h-14 rounded-xl ml-5 text-white text-sm m-2 lg:m-1 bg-blue">دانلود برنامه تپسی راننده</button>
+        </div>
       </div>
     </div>
   );
